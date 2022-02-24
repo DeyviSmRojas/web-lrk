@@ -590,7 +590,7 @@ body{
         text-align: center;
     }
     .mockup{
-        width: 80%;
+        width: 60%;
         margin-bottom: 20px;
     }
     .title{
@@ -609,5 +609,15 @@ body{
     }
     .services .card{
         width: 80%;
+    }
+    .container-bg{
+        justify-content: space-evenly;
+    }
+    .card{
+        margin-bottom: 40px;
+        width: 65%;
+    }
+    .card__title{
+        font-size: 35px;
     }
 }
