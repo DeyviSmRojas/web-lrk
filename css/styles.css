@@ -620,4 +620,74 @@ body{
     .card__title{
         font-size: 35px;
     }
+    .card__button{
+        width: 100%;
+    }
+    .background{
+        width: 65%;
+        margin-bottom: 40px;
+    }
+    .background__copy{
+        display: none;
+    }
+    .testimony__card{
+        width: 65%;
+    }
+    .testimony__name{
+        font-size: 20px;
+    }
+    .container--modifier{
+        width: 80%;
+    }
+    .item__contact{
+        width: 100%;
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width:500px){
+    .mockup{
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .services .card{
+        width: 95%;
+    }
+    .card{
+        width: 95%;
+    }
+    .background{
+        width: 95%;
+    }
+    .testimony__card{
+        width: 95%;
+    }
+    .testimony__history{
+        font-size: 20px;
+    }
+    .container--modifier{
+        width: 90%;
+    }
+    .newsletter{
+        width: 100%;
+        display: none;
+    }
+    .newsletter--modifier{
+        display: block;
+    }
+    .check__item{
+        width: 100%;
+        border: none;
+        padding: none;
+        justify-content: center;
+    }
+    .download__item{
+        width: 49%;
+    }
+    .download__title{
+        font-size: 16px;
+    }
+    .download__logo{
+        font-size: 30px;
+    }
 }
